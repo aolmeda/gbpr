@@ -1,42 +1,13 @@
-# Gbpr readme
+# GBPR
 
-Generated on 2016-11-05 using
-[generator-yeogurt@1.5.3](https://github.com/larsonjj/generator-yeogurt)
+## Running GBPR project in my machine
 
-## Description
-
-This is an example readme file.
-Describe your site/app here.
-
-## Technologies used
-
-JavaScript
-- [Browserify](http://browserify.org/) with ES6/2015 support through [Babel](https://babeljs.io/)
-- [Node](https://nodejs.org/)
-
-Styles
-- [Sass](http://sass-lang.com/) via ([node-sass](https://github.com/sass/node-sass))
-
-Markup
-- [Jade](http://jade-lang.com/)
-
-Optimization
-- [Imagemin](https://github.com/imagemin/imagemin)
-- [Uglify](https://github.com/mishoo/UglifyJS)
-
-Server
-- [BrowserSync](http://www.browsersync.io/)
-
-Linting
-- [ESlint](http://eslint.org/)
-
-Automation
-- [Gulp](http://gulpjs.com)
-
-Code Management
-- [Editorconfig](http://editorconfig.org/)
-- [Git](https://git-scm.com/)
-
+1. Open Command Prompt in administrator mode, then close it
+2. Open Command Prompt normally
+3. Run `$ cd Webpages/gbpr`
+4. Run `$ gulp serve`
+5. To cancel press ctrl and C
+6. To go back one folder run: `$ cd ..`
 
 ## Automated tasks
 
