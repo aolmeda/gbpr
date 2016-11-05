@@ -1,50 +1,57 @@
-// Normalize Styles
-@import 'node_modules/normalize.css/normalize';
-
-// Import Modules
-@import '../_modules/link/link';
+// Node Modules
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "node_modules/font-awesome/scss/font-awesome.scss";
 
 body {
   background-color: #d7dcc6;
 }
 .main-title {
-  background-color: #260D14;
   padding: 15px;
+
   color: #fff;
+  background-color: #260D14;
 }
 .main-title h1 {
   margin: 0;
-  text-transform: uppercase;
-  font-size: 22px;
-  text-align: center;
+
   font-family: 'Fredoka One', sans-serif;
+  font-size: 22px;
+
+  text-align: center;
+  text-transform: uppercase;
 }
 .main-intro {
-  background-color: #40161D;
   padding: 15px;
-  color: #fff;
-  text-align: center;
+
   font-weight: lighter;
+
+  text-align: center;
+
+  color: #fff;
+  background-color: #40161D;
 }
 .list-view {
-  list-style: none;
   padding: 0;
+
+  list-style: none;
 }
 .list-view-item {
   border-bottom: 1px solid #ddd;
 }
 .list-view-item a {
-  padding: 15px;
   display: block;
+  padding: 15px;
+
   color: #000;
   background-color: white;
 }
 .list-view-item a:hover {
-  background-color: #eee;
   text-decoration: none;
+
+  background-color: #eee;
 }
 .list-view-item a .cuisine {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 .list-view-item a .rest {
   font-size: 18px;
